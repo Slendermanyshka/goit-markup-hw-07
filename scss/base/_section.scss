@@ -1,0 +1,14 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .body .section + .section {
+    margin-top: 0px;
+    padding-top: 94px;
+  }
+  
+  .paddingKostyl {
+    padding-bottom: 0px;
+  }
+  

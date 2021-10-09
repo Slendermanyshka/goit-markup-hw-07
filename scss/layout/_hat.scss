@@ -1,0 +1,47 @@
+.hat {
+    background-color: var(--backgroundColorBlack);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../images/hat_bg.png);
+    background-size: contain;
+  }
+  .hatContainer {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hat {
+    & button {
+      width: 200px;
+      height: 50px;
+      margin-top: 40px;
+      font-family: -Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: #ffffff;
+      border: 0px;
+      background-color: var(--highlightColor);
+      
+    }
+     & button:hover, button:focus {
+       background-color: rgba(30, 125, 202, 1);
+     
+       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     }
+
+     & h1 {
+      font-size: 44px;
+      font-weight: 900;
+      line-height: 60px;
+      color: #ffffff;
+    
+      letter-spacing: 0.06em;
+      text-align: center;
+    }
+  }  
+  
