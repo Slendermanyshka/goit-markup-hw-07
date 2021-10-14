@@ -8,13 +8,14 @@
       url(../images/hat_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: cover;  }
+    background-size: cover;
+    object-fit: cover;
+  }
   .hat__Container {
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-      object-fit: cover;
     align-items: center;
   }
   .hat {  
