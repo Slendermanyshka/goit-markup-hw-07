@@ -1,11 +1,11 @@
 
 
-  .client-list {
+  .client__list {
     list-style-type: none;
     display: flex;
     justify-content: center;
   }
-  .client-item {
+  .client__item {
 
     &:not(:last-child) {
       margin-right: 30px;
@@ -43,7 +43,7 @@
     }
   }
   
-.client-title {
+.client__title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,20 +51,16 @@
   margin-right: auto;
   margin-left: auto;
 }
-.client-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-}
 
-.client-item a:hover,
-.client-item:focus,
-.client-item:hover svg,
-.client-item:focus svg {
+
+.client__item a:hover,
+.client__item:focus,
+.client__item:hover svg,
+.client__item:focus svg {
   border-color: var(--highlightColor);
   fill: var(--highlightColor);
 }
 
-.client-item:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
 }

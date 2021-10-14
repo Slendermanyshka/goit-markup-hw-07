@@ -8,15 +8,15 @@
       url(../images/hat_bg.png);
     background-size: contain;
     background-repeat: no-repeat;
-  }
-  .hatContainer {
+    background-size: cover;  }
+  .hat__Container {
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .hat {
+  .hat {  
     & button {
       width: 200px;
       height: 50px;

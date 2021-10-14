@@ -24,8 +24,7 @@ button {
 }
 
 body {
-  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu,
- Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0px;
 }
 
@@ -53,16 +52,16 @@ body {
   text-decoration: none;
 }
 
-.footerContainer {
+.footer__Container {
   display: flex;
   list-style-type: none;
 }
 
-.item-social {
+.item__social {
   margin-left: 70px;
 }
 
-.footerIconsContainer {
+.footer__Icons__Container {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -91,20 +90,13 @@ body {
   margin-top: 9px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* 
-================================================================================================= */
 
-.address a{
-
-  &:hover, .address a:focus {
+.address a:hover, .address a:focus {
   text-decoration: none;
   color: white;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
 
-/* 
-================================================================================================= */
 .address span {
   color: #ffffff;
 }
@@ -117,11 +109,11 @@ body {
   color: #ffffff;
 }
 
-.item-email {
+.footer__item__email {
   margin-left: 93px;
 }
 
-.emailContainer {
+.footer__email_Container {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -134,7 +126,7 @@ body {
   color: #ffffff;
 }
 
-.emailContainerInput {
+.footer__email__Input__Container {
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -154,7 +146,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.emailContainerButton {
+.footer__email__Button__Container {
   margin-left: 12px;
   padding: 10px 29px;
   max-width: 200px;
@@ -168,12 +160,12 @@ body {
   border-radius: 4px;
 }
 
-.emailContainerButton svg {
+.footer__email__Button__Container svg {
   margin-left: 10px;
   fill: #ffffff;
 }
 
-.emailContainerButton p {
+.footer__email__Button__Container p {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -185,7 +177,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.emailContainerButton:focus, .emailContainerButton:hover {
+.footer__email__Button__Container:focus, .footer__email__Button__Container:hover {
   background-color: #1e7dca;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -197,25 +189,25 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.mainBox {
+.header__mainBox {
   display: flex;
   align-self: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.main-nav {
+.header__main__nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.menu-nav {
+.header__menu__nav {
   display: flex;
   margin-left: 93px;
 }
 
-.menu-nav a {
+.header__menu__nav a {
   text-decoration: none;
   color: #000000;
   font-weight: 500;
@@ -227,24 +219,24 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-nav a:hover, .menu-nav a:focus {
+.header__menu__nav a:hover, .header__menu__nav a:focus {
   color: var(--highlightColor);
 }
 
-.menu-nav li {
+.header__menu__nav li {
   text-decoration: none;
 }
 
-.menu-nav .item:not(:last-child) {
+.header__menu__nav .item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts {
+.header__contacts {
   display: flex;
   margin-left: auto;
 }
 
-.contacts a {
+.header__contacts a {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -256,7 +248,7 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-icons {
+.header__contacts-icons {
   display: in-block;
   width: 16px;
   height: 16px;
@@ -264,21 +256,21 @@ body {
   fill: #757575;
 }
 
-.contacts .item {
+.header__contacts .item {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
 }
 
-.contacts .item.item:not(:last-child) {
+.header__contacts .item.item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts .item a:hover,
-.contacts .item a:focus,
-.contacts .item a:hover svg,
-.contacts .item a:focus svg {
+.header__contacts .item a:hover,
+.header__contacts .item a:focus,
+.header__contacts .item a:hover svg,
+.header__contacts .item a:focus svg {
   fill: var(--highlightColor);
   color: var(--highlightColor);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -357,14 +349,14 @@ body {
   fill: var(--highlightColor);
 }
 
-.modal-label {
+.modal__label {
   display: flex;
   flex-direction: column;
   height: 58px;
   padding: 0 40px;
 }
 
-.modal-title {
+.modal__title {
   padding: 40px 40px 12px 40px;
   font-family: Roboto;
   font-style: normal;
@@ -376,7 +368,7 @@ body {
   color: #212121;
 }
 
-.modal-subText {
+.modal__subText {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -388,7 +380,7 @@ body {
   margin-bottom: 4px;
 }
 
-.modal-input-container {
+.modal__input__container {
   position: relative;
   display: flex;
   box-sizing: border-box;
@@ -396,7 +388,7 @@ body {
   margin-bottom: 10px;
 }
 
-.modal-inputs {
+.modal__inputs {
   height: 40px;
   box-sizing: border-box;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -405,7 +397,7 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-inputs-icons {
+.modal__inputs__icons {
   position: absolute;
   display: block;
   left: 15px;
@@ -414,7 +406,7 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-textarea {
+.modal__textarea {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -425,22 +417,22 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-textarea::placeholder {
+.modal__textarea::placeholder {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
 }
 
-.modal-inputs:hover, .modal-inputs:focus, .modal-textarea:focus, .modal-textarea:hover {
+.modal__inputs:hover, .modal__inputs:focus, .modal__textarea:focus, .modal__textarea:hover {
   border: 1px solid #2196F3;
   outline: none;
 }
 
-.modal-inputs:focus ~ .modal-inputs-icons {
+.modal__inputs:focus ~ .modal__inputs__icons {
   fill: #2196F3;
 }
 
-.modal-checkbox {
+.modal__checkbox {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -448,7 +440,7 @@ body {
   margin-top: 20px;
 }
 
-.termsuse-text {
+.termsuse__text {
   display: flex;
   margin: 0;
   font-size: 14px;
@@ -458,7 +450,7 @@ body {
   padding-left: 7px;
 }
 
-.termsuse-text::before {
+.termsuse__text::before {
   content: "";
   width: 15px;
   height: 15px;
@@ -467,7 +459,7 @@ body {
   margin-right: 5px;
 }
 
-.check:checked + .termsuse-text::before {
+.check:checked + .termsuse__text::before {
   background-color: #2196F3;
   display: flex;
   justify-content: center;
@@ -487,13 +479,13 @@ body {
   height: 15px;
 }
 
-.terms-link {
+.terms__link {
   margin-left: 5px;
   text-decoration-line: underline;
   color: #2196F3;
 }
 
-.terms-text {
+.terms__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -503,19 +495,19 @@ body {
   color: #757575;
 }
 
-.terms-link {
+.terms__link {
   margin-left: 5px;
   text-decoration-line: underline;
   color: #2196F3;
 }
 
-.modal-button {
+.modal__button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.send-button {
+.send__button {
   margin-top: 15px;
   width: 200px;
   height: 50px;
@@ -533,20 +525,20 @@ body {
   color: #FFFFFF;
 }
 
-.send-button:hover, .send-button:focus {
+.send__button:hover, .send__button:focus {
   background: #188ce8;
 }
 
-.list-social {
+.social__list {
   display: flex;
   justify-content: center;
 }
 
-.list-social a + a {
+.social__list a + a {
   margin-left: 10px;
 }
 
-.icon-social {
+.social__icon {
   display: flex;
   content: "";
   align-items: center;
@@ -561,45 +553,44 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.teamIconFill {
-  fill: #AFB1b8;
-}
-
-.teamIconBackground {
-  background-color: #ffffff;
-}
-
-.icon-social:hover .teamIconFill,
-.icon-social:focus .teamIconFill {
+.social__icon :hover .team__Icon__Fill,
+.social__icon :focus .team__Icon__Fill {
   fill: #ffffff;
 }
 
-.icon-social:hover,
-.icon-social:focus {
+.social__icon:hover, .social__icon :focus {
   background-color: var(--highlightColor);
 }
 
-.icon-social:nth-child(1) {
+.social__icon:nth-child(1) {
   background-image: url(../images/instagram.svg);
 }
 
-.icon-social:nth-child(2) {
+.social__icon:nth-child(2) {
   background-image: url(../images/twitter.svg);
 }
 
-.icon-social:nth-child(3) {
+.social__icon:nth-child(3) {
   background-image: url(../images/facebook.svg);
 }
 
-.icon-social:nth-child(4) {
+.social__icon:nth-child(4) {
   background-image: url(../images/linkedin.svg);
 }
 
-.list-social-footer {
+.team__Icon__Fill {
+  fill: #AFB1b8;
+}
+
+.team__Icon__Background {
+  background-color: #ffffff;
+}
+
+.social__list__footer {
   margin-top: 20px;
 }
 
-.icon-social-footer {
+.social__icon__footer {
   fill: #ffffff;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
@@ -622,11 +613,11 @@ body {
   text-decoration: none;
 }
 
-.topLogo a {
+.top__Logo a {
   color: #000000;
 }
 
-.bottomLogo a {
+.bottom__Logo a {
   color: #ffffff;
   margin-bottom: 20px;
 }
@@ -660,16 +651,16 @@ body {
   margin: 0;
 }
 
-.activitiesList {
+.activities__List {
   margin-left: -30px;
 }
 
-.activitiesThumb {
+.activities__Thumb {
   position: relative;
   display: inline-flex;
 }
 
-.activitiesOverlay {
+.activities__Overlay {
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -681,17 +672,17 @@ body {
   color: #ffffff;
 }
 
-.client-list {
+.client__list {
   list-style-type: none;
   display: flex;
   justify-content: center;
 }
 
-.client-item:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.client-item a {
+.client__item a {
   display: block;
   width: 170px;
   height: 92px;
@@ -702,11 +693,11 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-item a :hover {
+.client__item a :hover {
   border-color: #2196f3;
 }
 
-.client-item svg {
+.client__item svg {
   fill: #afb1b8;
   display: block;
   margin: auto;
@@ -714,11 +705,11 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-item svg :hover {
+.client__item svg :hover {
   fill: #2196f3;
 }
 
-.client-title {
+.client__title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -727,21 +718,15 @@ body {
   margin-left: auto;
 }
 
-.client-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-}
-
-.client-item a:hover,
-.client-item:focus,
-.client-item:hover svg,
-.client-item:focus svg {
+.client__item a:hover,
+.client__item:focus,
+.client__item:hover svg,
+.client__item:focus svg {
   border-color: var(--highlightColor);
   fill: var(--highlightColor);
 }
 
-.client-item:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -749,9 +734,11 @@ body {
   background-color: var(--backgroundColorBlack);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hat_bg.png);
   background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.hatContainer {
+.hat__Container {
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -816,7 +803,7 @@ body {
   font-style: normal;
 }
 
-.icon-specification {
+.icon__specification {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -856,11 +843,11 @@ body {
   margin-left: 0px;
 }
 
-.teamList {
+.team__List {
   margin-left: -30px;
 }
 
-.teamList li {
+.team__List li {
   display: inline-block;
   text-align: center;
   margin-left: 30px;
@@ -870,7 +857,7 @@ body {
   border-radius: 4px;
 }
 
-.teamSectionFIx {
+.team__Section__Fix {
   background-color: #f5f3fa;
 }
 
