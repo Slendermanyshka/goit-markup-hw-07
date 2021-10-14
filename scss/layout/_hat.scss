@@ -6,10 +6,9 @@
         rgba(0, 0, 0, 0.4)
       ),
       url(../images/hat_bg.png);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
+    background-size: fill;
+    object-fit: fill;
   }
   .hat__Container {
     height: 600px;
