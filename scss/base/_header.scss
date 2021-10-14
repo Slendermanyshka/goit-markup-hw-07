@@ -5,20 +5,20 @@
     border-bottom: 1px solid #ececec;
   }
   
-  .mainBox {
+  .header__mainBox {
     display: flex;
     align-self: center;
     justify-content: center;
     flex-direction: column;
   }
   
-  .main-nav {
+  .header__main__nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
   
-  .menu-nav {
+  .header__menu__nav {
     display: flex;
     margin-left: 93px;
 
@@ -47,7 +47,7 @@
      
   }
 
-  .contacts {
+  .header__contacts {
     display: flex;
     margin-left: auto;
     & a{
@@ -67,7 +67,7 @@
     }
   }
 
-  .contacts-icons {
+  .header__contacts-icons {
     display: in-block;
   
     width: 16px;
@@ -76,7 +76,7 @@
     fill: #757575;
   }
   
-  .contacts .item {
+  .header__contacts .item {
     display: flex;
     justify-content: center;
     align-items: center;
