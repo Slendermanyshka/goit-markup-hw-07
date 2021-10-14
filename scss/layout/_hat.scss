@@ -7,8 +7,8 @@
       ),
       url(../images/hat_bg.png);
     background-repeat: no-repeat;
-    background-size: fill;
-    object-fit: fill;
+    background-size: cover;
+    object-fit: cover;
   }
   .hat__Container {
     height: 600px;

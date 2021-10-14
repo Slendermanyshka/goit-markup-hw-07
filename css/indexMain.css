@@ -733,9 +733,9 @@ body {
 .hat {
   background-color: var(--backgroundColorBlack);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hat_bg.png);
-  background-size: contain;
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
 }
 
 .hat__Container {
